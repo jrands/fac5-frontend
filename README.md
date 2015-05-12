@@ -17,6 +17,7 @@ Week 1 front end seminar
 * We are designing our blog "Mobile first" - i.e. starting with mobile in mind and not the desktop browser  
 * The advantages are... 
  * Desktop sites often have more functionality / fancy things than the equivalent mobile site; starting with the desktop means we have to remove things for the mobile, whereas starting with the mobile site we can add things for the desktop, which is simpler
+ * Shaq soda is not as good as it sounds it's quite misleading
  * Faster loading time on a mobile - otherwise the desktop version loads and components are removed which takes longer
  * Google page ranking higher for mobile optimized sites - greater exposure with designing for mobile
  * Changing user habits - 25% of U.S. population only use mobiles for internet
@@ -42,12 +43,14 @@ More info [here](http://designshack.net/articles/css/mobilefirst/)
 * As we probably all know by now, we use CSS to style our HTML  
  * Instead of writing out the colo(u)r/font/font-size for each HTML element inside the main HTML doc, we can have a separate CSS doc where we define how each HTML element should look  
  * Even better, we can use the class and ID attributes to specify (only) a single element (by ID) or multiple elements (by class)  
+ *  We need to ensure there are no leaky abstractions
  * In the CSS, the class selector is the class name preceded by a full stop - .headers  
  * And the ID selector is the ID name preceded by a hashtag - #MainHeader  
 
 ###Media Queries
 
- * We can also specify different rules for different screen sizes, device types, page orientations etc. using CSS Media Queries  
+ * We can also specify different rules for different screen sizes, device types, page orientations etc. using CSS Media Queries 
+ *  Maybe put some singly linked lists here???
   * So we can make images bigger on larger screens, or remove menus/headers for print-friendly pages, and so on  
  
  
